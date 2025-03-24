@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
         <header className='header header__fixed'>
-            <a className='header__link'>Alesya</a>
+            <a href='/' className='header__link'>Alesya</a>
             <div className='menu'>
                 <input type='checkbox' id='burger-checkbox' className='burger-checkbox'></input>
                 <label for='burger-checkbox' className='burger'></label>

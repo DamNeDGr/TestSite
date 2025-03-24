@@ -7,7 +7,7 @@ export default function AboutMe() {
     <>
         <div className='container'>
           <div className='about__content'>
-            <h1 className='about__title'>об о мне :</h1>
+            <h1 className='about__title'>обо мне :</h1>
             <h2 className='about__content-title'>Образование :</h2>
             <p className='about__content-educat'>Cамарский медицинский университет РЕАВИЗ. Высшее сестринское дело.преподаватель.</p>
             <p className='about__content-educat'>Частное образовательное учреждение "фельдшер", "лечебное дело"</p>
@@ -15,7 +15,9 @@ export default function AboutMe() {
             <p className='about__content-educat'>Нейропсихология детского возраста. Детский массаж. Тренер по адаптивной физической культуре. Войта и Бобат терапия ( высшая академия медицинского образования г. Санкт-Петербург)</p>
             <h2 className='about__content-title'>Опыт работы :</h2>
             <p className='about__content-educat'>Более 7 лет</p>
-            <p className='about__content-educat'>Индивидуальный подход к каждому ребенку. работаю с такими заболеваниями как : РАС, синдром Дауна, умственная отсталость, синдром дефицита внимания и гиперактивность, ДЦП и т.д.</p>
+            <h2 className='about__content-title'>Работаю с такими заболеваниями как :</h2>
+            <p className='about__content-educat'>РАС, синдром Дауна, умственная отсталость, синдром дефицита внимания и гиперактивность, ДЦП и т.д.</p>
+            <p className='about__content-educat'>Индивидуальный подход к каждому ребенку.  </p>
           </div>
         </div>
     </>
