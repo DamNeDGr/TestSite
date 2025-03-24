@@ -1,7 +1,6 @@
 import React from 'react'
 import Avatar from './img/image.jpg'
 import './content.css'
-import Header from '../header/header'
 export default function Content() {
   return (
     <>
