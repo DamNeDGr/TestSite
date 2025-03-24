@@ -2,10 +2,10 @@
 import Content from './components/Content/Content'
 import About from './components/Aboutme/AboutMe'
 import Contact from './components/Contacts/Contact';
+import Header from './components/Header/Header';
 
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Header from './components/header/header';
 
 
 function App() {
