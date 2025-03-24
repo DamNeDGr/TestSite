@@ -12,7 +12,7 @@ export default function Header() {
                 <label for='burger-checkbox' className='burger'></label>
                 <ul className='menu-list'>
                     <li><a href='/' className='menu-item'>Главная</a></li>
-                    <li><a href='/about' className='menu-item'>об о мне</a></li>
+                    <li><a href='/about' className='menu-item'>обо мне</a></li>
                     <li><a href='#' className='menu-item'>отзывы</a></li>
                     <li><a href='/contact' className='menu-item'>контакты</a></li>
                 </ul>
