@@ -16,8 +16,8 @@ function App() {
       <Routes>
     
       <Route path='/' element={<Content/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/contact' element={<Contact/>} />
+      <Route path='https://test-site-h2si.vercel.app/about' element={<About/>} />
+      <Route path='https://test-site-h2si.vercel.app/contact' element={<Contact/>} />
 
     </Routes>
     </>
