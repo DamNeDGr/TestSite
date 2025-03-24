@@ -4,7 +4,6 @@ import './content.css'
 export default function Content() {
   return (
     <>
-    <Header />
       <main>
         <div className='container'>
           <div className='content'>

@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from '../header/header'
 
 import './contact.css'
 
 export default function Contact() {
   return (
     <>
-        <Header/>
         <div className='contact_container'>
             <div className='contact__title'>
                 <h1 className='contact__title-text'>Контакты</h1>

@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from '../header/header'
 
 import './aboutme.css'
 
 export default function AboutMe() {
   return (
     <>
-        <Header />
         <div className='container'>
           <div className='about__content'>
             <h1 className='about__title'>об о мне :</h1>
