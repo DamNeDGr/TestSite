@@ -1,0 +1,31 @@
+
+.container {
+    margin-top: 62px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__image-img{
+    width: 253px;
+    height: 391px;
+    border-radius: 52px;
+}
+
+.content__title {
+    margin-top: 26px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.content__descript-text {
+    width: 315px;
+    height: 132px;
+    margin-top: 26px;
+    font-size: 36px;
+    text-align: center;
+}
