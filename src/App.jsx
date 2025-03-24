@@ -5,17 +5,23 @@ import Contact from './components/Contacts/Contact';
 
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Header from './components/header/header';
 
 
 function App() {
 
   return (
-    <Routes>
+    <>
+      <Header />
+      <Routes>
+    
       <Route path='/' element={<Content/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/contact' element={<Contact/>} />
 
     </Routes>
+    </>
+    
   )
 }
 
