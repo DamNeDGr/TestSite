@@ -9,7 +9,7 @@ export default function Header() {
             <a href='/' className='header__link'>Alesya</a>
             <div className='menu'>
                 <input type='checkbox' id='burger-checkbox' className='burger-checkbox'></input>
-                <label for='burger-checkbox' className='burger'></label>
+                <label htmlFor='burger-checkbox' className='burger'></label>
                 <ul className='menu-list'>
                     <li><a href='/' className='menu-item'>Главная</a></li>
                     <li><a href='/about' className='menu-item'>обо мне</a></li>
