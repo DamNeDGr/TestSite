@@ -16,10 +16,12 @@
     border-radius: 52px;
 }
 
-.content__title {
+.content__title h1{
     margin-top: 26px;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .content__descript-text {

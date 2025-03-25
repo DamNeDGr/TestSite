@@ -10,7 +10,9 @@ export default function Content() {
             <div className='content__image'>
               <img className='content__image-img' src={Avatar} alt='Avatar' loading='lazy'></img>
             </div>
-            <div className='content__title'>Специалист по Детской Реабилитации</div>
+            <div className='content__title'>
+              <h1 className='content__title'>Специалист по Детской Реабилитации</h1>
+            </div>
             <div className='content__descript'><p className='content__descript-text'>Шайморданова Алеся Равильевна</p></div>
           </div>
         </div>
