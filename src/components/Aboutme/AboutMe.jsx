@@ -12,8 +12,15 @@ export default function AboutMe() {
             <p className='about__content-educat'>Cамарский медицинский университет РЕАВИЗ. Высшее сестринское дело.преподаватель.</p>
             <p className='about__content-educat'>Частное образовательное учреждение "фельдшер", "лечебное дело"</p>
             <h2 className='about__content-title'>Повышение квалификации :</h2>
-            <p className='about__content-educat'>Нейропсихология детского возраста. Детский массаж. Тренер по адаптивной физической культуре. Войта и Бобат терапия ( высшая академия медицинского образования г. Санкт-Петербург)</p>
+            <p className='about__content-educat'>Нейропсихология детского возраста.</p>
+             <p className='about__content-educat'>Детский массаж.</p>
+             <p className='about__content-educat'>Тренер по адаптивной физической культуре.</p>
+             <p className='about__content-educat'>Войта и Бобат терапия.</p>
+             <p className='about__content-educat'>Высшая академия медицинского образования г. Санкт-Петербург</p>
             <h2 className='about__content-title'>Опыт работы :</h2>
+            <p className='about__content-educat'>В медицине:</p>
+            <p className='about__content-educat'>Более 10 лет</p>
+            <p className='about__content-educat'>В реабилитации:</p>
             <p className='about__content-educat'>Более 7 лет</p>
             <h2 className='about__content-title'>Работаю с такими заболеваниями как :</h2>
             <p className='about__content-educat'>РАС, синдром Дауна, умственная отсталость, синдром дефицита внимания и гиперактивность, ДЦП и т.д.</p>
@@ -23,3 +30,6 @@ export default function AboutMe() {
     </>
   )
 }
+
+
+// Нейропсихология детского возраста. Детский массаж. Тренер по адаптивной физической культуре. Войта и Бобат терапия ( высшая академия медицинского образования г. Санкт-Петербург)
