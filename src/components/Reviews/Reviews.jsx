@@ -22,7 +22,7 @@ export default function Reviews() {
         
         
     };
-    setIsAuth(false)
+   
     const deleteReview = (id) => {
         setReviews(reviews.filter((review) => review.id !== id));
     }
