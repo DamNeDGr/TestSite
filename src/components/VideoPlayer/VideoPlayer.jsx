@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from './video/video.MP4'
+import Video from './video/video.webm'
 import Poster from './video/poster.png'
 export default function VideoPlayer() {
   return (
