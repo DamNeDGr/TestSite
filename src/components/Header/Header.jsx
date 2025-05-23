@@ -23,17 +23,17 @@ export default function Header() {
             </li>
             <li>
               <a href="/about" className="menu-item">
-                обо мне
+                Обо мне
               </a>
             </li>
-            {/* <li>
-              <a href="/reviews" className="menu-item">
-                отзывы
+            <li>
+              <a href="/myworks" className="menu-item">
+                Мои работы
               </a>
-            </li> */}
+            </li>
             <li>
               <a href="/contact" className="menu-item">
-                контакты
+                Контакты
               </a>
             </li>
           </ul>
