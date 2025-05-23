@@ -1,30 +1,21 @@
-
-import Content from './components/Content/Content'
-import About from './components/Aboutme/AboutMe'
-import Contact from './components/Contacts/Contact';
-import Header from './components/Header/Header';
-import FeedBack from './components/FeedBack/FeedBack';
-
-
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Aboutme from "./pages/Aboutme/Aboutme";
+import Contact from "./pages/Contact/Contact";
+import Main from "./pages/Main/Main";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router"; 
 
 
-function App() {
+ export function App() {
 
   return (
     <>
       <Header />
       <Routes>
-    
-      <Route path='/' element={<Content/>} />
-      <Route path='/about' element={<About/>} />
-      {/* <Route path='/feedback' element={<FeedBack/>} /> */}
-      <Route path='/contact' element={<Contact/>} />
-
-    </Routes>
+        <Route path='/' element={<Main/>} />
+        <Route path='/aboutme' element={<Aboutme/>} />
+        <Route path='/contact' element={<Contact/>} />
+      </Routes>
     </>
-    
-  )
+  );
 }
 
-export default App

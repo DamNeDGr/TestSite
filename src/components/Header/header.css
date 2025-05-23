@@ -104,5 +104,3 @@
 .burger-checkbox:checked ~ .menu-list {
   transform: translateX(0);
 }
-
-
