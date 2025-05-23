@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
       <Header />
       <Routes>
         <Route path='/' element={<Main/>} />
-        <Route path='/aboutme' element={<Aboutme/>} />
+        <Route path='/about' element={<Aboutme/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
     </>
